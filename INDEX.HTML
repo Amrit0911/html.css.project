@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Clone - Online Shopping Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <h1>CART-HUB</h1>
+                <p class="logo-subtitle">Explore Plus <i class="fas fa-chevron-down"></i></p>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products, brands and more">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="nav-links">
+                <a href="login.html"><i class="fas fa-user"></i> Login</a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a>
+                <a href="#"><i class="fas fa-ellipsis-v"></i> More</a>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <nav>
+                <a href="#"><i class="fas fa-bolt"></i> Electronics</a>
+                <a href="#"><i class="fas fa-tshirt"></i> Fashion</a>
+                <a href="#"><i class="fas fa-home"></i> Home</a>
+                <a href="#"><i class="fas fa-blender-phone"></i> Appliances</a>
+                <a href="#"><i class="fas fa-mobile-alt"></i> Mobiles</a>
+                <a href="#"><i class="fas fa-tv"></i> TVs</a>
+                <a href="#"><i class="fas fa-gamepad"></i> Gaming</a>
+                <a href="#"><i class="fas fa-utensils"></i> Grocery</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="hero-banner">
+                <div class="banner-slider">
+                    <img src="https://images.unsplash.com/photo-1607082350899-7e105aa886ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Flipkart Sale Banner">
+                </div>
+            </section>
+
+            <section class="categories">
+                <h2>Shop by Category</h2>
+                <div class="category-grid">
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Mobiles">
+                        <p>Mobiles</p>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Electronics">
+                        <p>Electronics</p>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Fashion">
+                        <p>Fashion</p>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Home">
+                        <p>Home & Kitchen</p>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Appliances">
+                        <p>Appliances</p>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Beauty">
+                        <p>Beauty</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="deals-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-bolt"></i> Deals of the Day</h2>
+                    <button class="view-all">View All</button>
+                </div>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="discount-badge">50% off</div>
+                        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Smartphone">
+                        <div class="product-info">
+                            <h3>Smartphone XYZ</h3>
+                            <div class="price">
+                                <span class="current-price">₹12,999</span>
+                                <span class="original-price">₹25,999</span>
+                            </div>
+                            <div class="rating">
+                                <span>4.3 <i class="fas fa-star"></i></span>
+                                <span>(1234)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="discount-badge">30% off</div>
+                        <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Laptop">
+                        <div class="product-info">
+                            <h3>Ultra Slim Laptop</h3>
+                            <div class="price">
+                                <span class="current-price">₹45,999</span>
+                                <span class="original-price">₹65,999</span>
+                            </div>
+                            <div class="rating">
+                                <span>4.5 <i class="fas fa-star"></i></span>
+                                <span>(892)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="discount-badge">40% off</div>
+                        <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Fashion">
+                        <div class="product-info">
+                            <h3>Casual T-Shirt</h3>
+                            <div class="price">
+                                <span class="current-price">₹599</span>
+                                <span class="original-price">₹999</span>
+                            </div>
+                            <div class="rating">
+                                <span>4.2 <i class="fas fa-star"></i></span>
+                                <span>(543)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="discount-badge">25% off</div>
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Home Decor">
+                        <div class="product-info">
+                            <h3>Designer Lamp</h3>
+                            <div class="price">
+                                <span class="current-price">₹1,299</span>
+                                <span class="original-price">₹1,799</span>
+                            </div>
+                            <div class="rating">
+                                <span>4.1 <i class="fas fa-star"></i></span>
+                                <span>(234)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-fire"></i> Featured Products</h2>
+                    <button class="view-all">View All</button>
+                </div>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="discount-badge">15% off</div>
+                        <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Appliance">
+                        <div class="product-info">
+                            <h3>Microwave Oven</h3>
+                            <div class="price">
+                                <span class="current-price">₹8,999</span>
+                                <span class="original-price">₹10,599</span>
+                            </div>
+                            <div class="rating">
+                                <span>4.4 <i class="fas fa-star"></i></span>
+                                <span>(678)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="discount-badge">20% off</div>
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Beauty">
+                        <div class="product-info">
+                            <h3>Skincare Set</h3>
+                            <div class="price">
+                                <span class="current-price">₹1,499</span>
+                                <span class="original-price">₹1,899</span>
+                            </div>
+                            <div class="rating">
+                                <span>4.6 <i class="fas fa-star"></i></span>
+                                <span>(1,234)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="discount-badge">35% off</div>
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Footwear">
+                        <div class="product-info">
+                            <h3>Running Shoes</h3>
+                            <div class="price">
+                                <span class="current-price">₹2,499</span>
+                                <span class="original-price">₹3,899</span>
+                            </div>
+                            <div class="rating">
+                                <span>4.3 <i class="fas fa-star"></i></span>
+                                <span>(987)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="discount-badge">10% off</div>
+                        <img src="https://images.unsplash.com/photo-1585155770447-2f66e2a397b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Electronics">
+                        <div class="product-info">
+                            <h3>Wireless Headphones</h3>
+                            <div class="price">
+                                <span class="current-price">₹3,999</span>
+                                <span class="original-price">₹4,499</span>
+                            </div>
+                            <div class="rating">
+                                <span>4.7 <i class="fas fa-star"></i></span>
+                                <span>(2,123)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="services-banner">
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Free Delivery">
+                    <div class="service-info">
+                        <h3>Free Delivery</h3>
+                        <p>On orders above ₹500</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Return Policy">
+                    <div class="service-info">
+                        <h3>7 Days Return</h3>
+                        <p>Moneyback guarantee</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1607083206869-4c76095d4343?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Secure Payment">
+                    <div class="service-info">
+                        <h3>Secure Payment</h3>
+                        <p>100% protected</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1586769852044-6920f4b664a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="24/7 Support">
+                    <div class="service-info">
+                        <h3>24/7 Support</h3>
+                        <p>Dedicated support</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Stories</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">Payments</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Cancellation & Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Policy</h3>
+                <ul>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Terms Of Use</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Social</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Flipkart Clone. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
